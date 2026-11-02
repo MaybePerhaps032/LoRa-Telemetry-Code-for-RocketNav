@@ -1,18 +1,6 @@
 /*
-
    ROCKET TELEMETRY - GROUND STATION RECEIVER  (Heltec WiFi LoRa 32 V3)
-
- 
-   Listens for 44-byte binary telemetry packets from the XIAO transmitter,
-   validates them, and prints one CSV row per packet at 115200 baud.
- 
-   Capture the Serial Monitor output to a .csv file and will have a flight
-   log ready for training
- 
    Library required: RadioLib
- 
-   
-
  */
 
 #include <RadioLib.h>
